@@ -1,0 +1,41 @@
+.keys{
+    display: flex;
+    margin: 20vh 20vh 20vh 20vh;
+    align-items: center;
+    background:transparent;
+    height: 60vh;
+    width: 60vh;
+    border-width: 10px saddlebrown;
+    justify-content:center;
+    flex:1;
+}
+.key{
+    background:rgba(245, 245, 245, 0.18);
+    text-shadow: 0 0 .5rem black;
+    display: flex;
+    height: 10vh;
+    flex-direction: column;
+    width: 10vh;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.7rem;
+    border: 3px solid black;
+    transition: all 0.07s ease;
+}
+
+body{
+    display: flex;
+    align-items:center;
+    background-image: url("./images/Drum.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+}
+.key kbd{
+    font-size:x-large;
+}
+.playing{
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
