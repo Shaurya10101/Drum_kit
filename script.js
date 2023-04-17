@@ -9,5 +9,6 @@ document.addEventListener('keydown', function playevent(event) {
   div.classList.add("playing");
   setTimeout(function() {
     div.classList.remove("playing");
+    
   }, 420); // replace 1000 with the desired duration in milliseconds
 });

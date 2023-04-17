@@ -1,41 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .keys{
-    display: flex;
-    margin: 20vh 20vh 20vh 20vh;
+    display: grid;
+    margin: 5vh 20vh vh 2vh;
+    position: absolute;
     align-items: center;
     background:transparent;
-    height: 60vh;
-    width: 60vh;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50vh;
+    width: 50vh;
     border-width: 10px saddlebrown;
     justify-content:center;
-    flex:1;
+    color: azure;
+    font-family: 'Poppins';
+    margin-top: 10px;
+
+}
+.first, .second, .thrid{
+    display: flex;
+
 }
 .key{
-    background:rgba(245, 245, 245, 0.18);
+    background:rgba(107, 130, 255, 0.18);
     text-shadow: 0 0 .5rem black;
     display: flex;
-    height: 10vh;
+    height: 8vh;
     flex-direction: column;
-    width: 10vh;
-    margin: 10px;
+    padding: 50px;
+    width: 20vh;
+    margin: 20px;
     align-items: center;
     justify-content: center;
-    border-radius: 0.7rem;
-    border: 3px solid black;
+    border-radius: 1rem;
+    border: 0px solid black;
     transition: all 0.07s ease;
+    font-family: 'Poppins';
 }
 
 body{
-    display: flex;
     align-items:center;
-    background-image: url("./images/Drum.png");
-    background-repeat: no-repeat;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/009/970/636/small/colorful-abstract-wave-in-black-background-dynamic-abstract-line-design-in-modern-and-luxurious-style-panoramic-wallpaper-design-for-banner-vector.jpg");
+    height: 100vh;
     background-size: cover;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(5px);
+    font-family: 'Poppins';
 }
 .key kbd{
-    font-size:x-large;
+    font-size:60px;
+}
+.key :active{
+    transform: scale(0.90);
 }
 .playing{
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    border-color: #fb00ff;
+    box-shadow: 0 0 2rem #d013fb;
+}
+h1{
+    color: azure;
+    font-family: 'Poppins';
+    font-size: 90px;
+    text-align: center;
+    margin: 0;
+}
+
+span{
+    font-size: 20px;
 }
